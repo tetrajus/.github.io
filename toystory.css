@@ -1,0 +1,187 @@
+@charset "utf-8" ;
+
+.select{
+		text-align: center;
+}
+.select ul ol{
+	display: inline-block; /*inline-blockに変更*/
+}
+.select a{
+	display: inline-block; /*inline-blockに変更*/
+	text-align: center;
+	width: 180px;
+	border-radius: 5px; /*丸かど*/
+	padding: 20px;
+	color: white;
+	font-weight: bold; /*文字を太くする*/
+	text-decoration: none; /*下の線消す*/
+	vertical-align: 20px;
+}
+.woody_s a{
+	background: linear-gradient(to bottom, maroon, maroon 20px, navajowhite 20px,navajowhite 60px,red 60px, red);
+}
+.woody_s a:hover{
+	background: red;
+}
+
+.buzz_s a{
+	background: linear-gradient(to bottom, indigo, indigo 20px, navajowhite 20px, navajowhite);
+}
+.buzz_s a:hover{
+}
+
+.bo_s a{
+	background: linear-gradient(to bottom, gold, gold 20px, navajowhite 20px, navajowhite);
+}
+
+.title{
+	text-align: center;
+	margin-top: 20px;
+}
+.title img{ /*タイトルの画像サイズ*/
+	height: 450px; 
+	width: auto; /*横のサイズを自動で調節*/
+	border: solid 3px blue;
+}
+
+
+.start h2{
+	margin-top: 30px;
+	color: brown;
+	border-bottom: solid 2px black; /*文字の下の線*/
+	border-left: solid 8px orange; /*文字の横の線*/
+}
+
+
+.story h2{
+	margin-top: 30px;
+	color: brown;
+	border-bottom: solid 2px black;
+	border-left: solid 8px orange; 
+}
+.story p{
+	padding-top: 30px
+}
+.story img{
+	height: 200px;
+	width: auto;
+	float: right; /*画像を右端へ,centerは動作無し？*/
+	margin-left: 20px;
+	border: solid 2px yellow;
+}
+
+
+.charactor h2{
+	margin-top: 70px;
+	color: brown;
+	border-bottom: solid 2px black;
+	border-left: solid 8px orange;
+}
+
+.woody{
+	border :solid 1px black;
+}
+.woody h3{
+	margin-top: 80px;
+	margin-bottom: -10px; /*初期の値からひく*/
+}
+.woody p{
+	margin-bottom: 180px;
+	margin-right: 40px;
+	margin-left: 10px;
+}
+.woody img{
+	height: 350px;
+	width: 400px;
+	object-fit: cover;
+	float: left; /*強制的に左へ*/
+	margin: 10px;
+}
+
+.buzz-lightyear {
+	border :solid  1px black;
+	margin-top: 20px;
+}
+.buzz-lightyear h3{
+	margin-top: 80px;
+	margin-bottom: -10px; 
+}
+.buzz-lightyear p{
+	margin-bottom: 180px;
+	margin-right: 40px;
+	margin-left: 10px;
+}
+.buzz-lightyear img{
+	height: 350px;
+	width: 400px;
+	object-fit: cover;
+	margin: 10px;
+	float: left;
+}
+
+.bo-peep{
+	border: solid 1px black;
+	margin-top: 20px;
+}
+.bo-peep h3{
+	margin-top: 80px;
+	margin-bottom: -10px;
+}
+.bo-peep p{
+	margin-bottom: 180px;
+	margin-right: 40px;
+	margin-left: 10px; /*画像のmarginにより10px右に移動する*/
+}
+.bo-peep img{
+	height: 350px;
+	width: 400px;
+	object-fit: cover; /*真ん中を起点に縦350x,横400pxでトリミング*/
+	margin: 10px;
+	float: left;
+}
+
+.forky{
+	border: solid 1px black;
+	margin-top: 20px; 
+}
+.forky h3{
+	margin-top: 80px;
+	margin-bottom: -10px;
+}
+.forky p{
+	margin-bottom: 180px;
+	margin-right: 40px;
+	margin-left: 10px;
+}
+.forky img{
+	height: 350px;
+	width: 400px;
+	object-fit: cover;
+	float: left;
+	margin: 10px;
+}
+
+.ducky-and-bunny{
+	border: solid 1px black;
+	margin-top: 20px;
+}
+
+.ducky-and-bunny h3{
+	margin-top: 80px;
+	margin-bottom: -10px;
+}
+
+.ducky-and-bunny p{
+
+	margin-bottom: 180px;
+	margin-right: 40px;
+	margin-left: 10px;
+}
+.ducky-and-bunny img{
+	height: 350px;
+	width: 400px;
+	object-fit: cover;
+	float: left;
+	margin: 10px;
+}
+
